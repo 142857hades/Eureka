@@ -533,7 +533,7 @@ override func viewDidLoad() {
             }
             .cellUpdate { cell, row in
                 if !row.isValid {
-                    cell.titleLabel?.textColor = .systemRed
+                    cell.titleLabel?.textColor = .red
                 }
             }
 
@@ -547,7 +547,7 @@ override func viewDidLoad() {
             }
             .cellUpdate { cell, row in
                 if !row.isValid {
-                    cell.titleLabel?.textColor = .systemRed
+                    cell.titleLabel?.textColor = .red
                 }
             }
 
